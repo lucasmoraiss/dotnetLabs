@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Person", "Person.csproj", "{E8971B95-EF06-46D0-8828-0DE19C13750A}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "person-ui", "..\Person-UI\person-ui.esproj", "{626A53CE-9403-4B1B-8361-78D7005D9219}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{E8971B95-EF06-46D0-8828-0DE19C13750A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8971B95-EF06-46D0-8828-0DE19C13750A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8971B95-EF06-46D0-8828-0DE19C13750A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626A53CE-9403-4B1B-8361-78D7005D9219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626A53CE-9403-4B1B-8361-78D7005D9219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626A53CE-9403-4B1B-8361-78D7005D9219}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{626A53CE-9403-4B1B-8361-78D7005D9219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626A53CE-9403-4B1B-8361-78D7005D9219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626A53CE-9403-4B1B-8361-78D7005D9219}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

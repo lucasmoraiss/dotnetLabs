@@ -38,6 +38,17 @@
       },
       "publishAllPorts": true,
       "useSSL": true
+    },
+    "person-ui": {
+      "commandName": "Executable",
+      "executablePath": "npm",
+      "workingDirectory": "C:\\Users\\Lucas\\Desktop\\dotnetApps\\Person-UI", // Aponta para a pasta do app React
+      "arguments": "run dev",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:3000",
+      "environmentVariables": {
+        "NODE_ENV": "development"
+      }
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
