@@ -1,0 +1,69 @@
+﻿/* Estilização do corpo */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+}
+
+/* Container principal */
+.container {
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px; /* Preenchimento interno */
+}
+
+/* Estilização do cabeçalho */
+.header {
+    background-color: #007bff; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 20px; /* Preenchimento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilização do título principal */
+h1 {
+    font-size: 2.5em; /* Tamanho da fonte do título */
+    margin: 0; /* Remove margens */
+}
+
+/* Estilização do subtítulo */
+h2 {
+    font-size: 1.5em; /* Tamanho da fonte do subtítulo */
+    margin: 20px 0; /* Margem acima e abaixo */
+}
+
+/* Estilização dos parágrafos */
+p {
+    line-height: 1.6; /* Aumenta a altura da linha */
+    margin: 10px 0; /* Margem acima e abaixo */
+}
+
+/* Estilização dos botões */
+.button {
+    background-color: #28a745; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Preenchimento interno */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para mão */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Permite definir margens */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+    .button:hover {
+        background-color: #218838; /* Cor do botão ao passar o mouse */
+    }
+
+/* Estilização do rodapé */
+.footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 20px; /* Preenchimento interno */
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    position: relative; /* Permite posicionamento absoluto de elementos filhos */
+    bottom: 0; /* Posiciona na parte inferior */
+    width: 100%; /* Largura total */
+}
